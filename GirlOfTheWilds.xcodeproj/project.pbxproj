@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966C8913194C80B200587631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8912194C80B200587631 /* Foundation.framework */; };
+		966C8915194C80B200587631 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8914194C80B200587631 /* CoreGraphics.framework */; };
+		966C8917194C80B200587631 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8916194C80B200587631 /* UIKit.framework */; };
+		966C891D194C80B200587631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 966C891B194C80B200587631 /* InfoPlist.strings */; };
+		966C891F194C80B200587631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C891E194C80B200587631 /* main.m */; };
+		966C8923194C80B200587631 /* RainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C8922194C80B200587631 /* RainAppDelegate.m */; };
+		966C8926194C80B200587631 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966C8924194C80B200587631 /* Main_iPhone.storyboard */; };
+		966C8929194C80B200587631 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966C8927194C80B200587631 /* Main_iPad.storyboard */; };
+		966C892C194C80B200587631 /* RainMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C892B194C80B200587631 /* RainMasterViewController.m */; };
+		966C892F194C80B200587631 /* RainDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C892E194C80B200587631 /* RainDetailViewController.m */; };
+		966C8931194C80B200587631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966C8930194C80B200587631 /* Images.xcassets */; };
+		966C8938194C80B200587631 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8937194C80B200587631 /* XCTest.framework */; };
+		966C8939194C80B200587631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8912194C80B200587631 /* Foundation.framework */; };
+		966C893A194C80B200587631 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966C8916194C80B200587631 /* UIKit.framework */; };
+		966C8942194C80B200587631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 966C8940194C80B200587631 /* InfoPlist.strings */; };
+		966C8944194C80B200587631 /* GirlOfTheWildsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C8943194C80B200587631 /* GirlOfTheWildsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		966C893B194C80B200587631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 966C8907194C80B200587631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 966C890E194C80B200587631;
+			remoteInfo = GirlOfTheWilds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		966C890F194C80B200587631 /* GirlOfTheWilds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GirlOfTheWilds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966C8912194C80B200587631 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		966C8914194C80B200587631 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		966C8916194C80B200587631 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		966C891A194C80B200587631 /* GirlOfTheWilds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GirlOfTheWilds-Info.plist"; sourceTree = "<group>"; };
+		966C891C194C80B200587631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		966C891E194C80B200587631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		966C8920194C80B200587631 /* GirlOfTheWilds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GirlOfTheWilds-Prefix.pch"; sourceTree = "<group>"; };
+		966C8921194C80B200587631 /* RainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainAppDelegate.h; sourceTree = "<group>"; };
+		966C8922194C80B200587631 /* RainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainAppDelegate.m; sourceTree = "<group>"; };
+		966C8925194C80B200587631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		966C8928194C80B200587631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		966C892A194C80B200587631 /* RainMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainMasterViewController.h; sourceTree = "<group>"; };
+		966C892B194C80B200587631 /* RainMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainMasterViewController.m; sourceTree = "<group>"; };
+		966C892D194C80B200587631 /* RainDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainDetailViewController.h; sourceTree = "<group>"; };
+		966C892E194C80B200587631 /* RainDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainDetailViewController.m; sourceTree = "<group>"; };
+		966C8930194C80B200587631 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		966C8936194C80B200587631 /* GirlOfTheWildsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GirlOfTheWildsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		966C8937194C80B200587631 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		966C893F194C80B200587631 /* GirlOfTheWildsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GirlOfTheWildsTests-Info.plist"; sourceTree = "<group>"; };
+		966C8941194C80B200587631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		966C8943194C80B200587631 /* GirlOfTheWildsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirlOfTheWildsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966C890C194C80B200587631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C8915194C80B200587631 /* CoreGraphics.framework in Frameworks */,
+				966C8917194C80B200587631 /* UIKit.framework in Frameworks */,
+				966C8913194C80B200587631 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966C8933194C80B200587631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C8938194C80B200587631 /* XCTest.framework in Frameworks */,
+				966C893A194C80B200587631 /* UIKit.framework in Frameworks */,
+				966C8939194C80B200587631 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966C8906194C80B200587631 = {
+			isa = PBXGroup;
+			children = (
+				966C8918194C80B200587631 /* GirlOfTheWilds */,
+				966C893D194C80B200587631 /* GirlOfTheWildsTests */,
+				966C8911194C80B200587631 /* Frameworks */,
+				966C8910194C80B200587631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966C8910194C80B200587631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966C890F194C80B200587631 /* GirlOfTheWilds.app */,
+				966C8936194C80B200587631 /* GirlOfTheWildsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966C8911194C80B200587631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				966C8912194C80B200587631 /* Foundation.framework */,
+				966C8914194C80B200587631 /* CoreGraphics.framework */,
+				966C8916194C80B200587631 /* UIKit.framework */,
+				966C8937194C80B200587631 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		966C8918194C80B200587631 /* GirlOfTheWilds */ = {
+			isa = PBXGroup;
+			children = (
+				966C8921194C80B200587631 /* RainAppDelegate.h */,
+				966C8922194C80B200587631 /* RainAppDelegate.m */,
+				966C8924194C80B200587631 /* Main_iPhone.storyboard */,
+				966C8927194C80B200587631 /* Main_iPad.storyboard */,
+				966C892A194C80B200587631 /* RainMasterViewController.h */,
+				966C892B194C80B200587631 /* RainMasterViewController.m */,
+				966C892D194C80B200587631 /* RainDetailViewController.h */,
+				966C892E194C80B200587631 /* RainDetailViewController.m */,
+				966C8930194C80B200587631 /* Images.xcassets */,
+				966C8919194C80B200587631 /* Supporting Files */,
+			);
+			path = GirlOfTheWilds;
+			sourceTree = "<group>";
+		};
+		966C8919194C80B200587631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966C891A194C80B200587631 /* GirlOfTheWilds-Info.plist */,
+				966C891B194C80B200587631 /* InfoPlist.strings */,
+				966C891E194C80B200587631 /* main.m */,
+				966C8920194C80B200587631 /* GirlOfTheWilds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		966C893D194C80B200587631 /* GirlOfTheWildsTests */ = {
+			isa = PBXGroup;
+			children = (
+				966C8943194C80B200587631 /* GirlOfTheWildsTests.m */,
+				966C893E194C80B200587631 /* Supporting Files */,
+			);
+			path = GirlOfTheWildsTests;
+			sourceTree = "<group>";
+		};
+		966C893E194C80B200587631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966C893F194C80B200587631 /* GirlOfTheWildsTests-Info.plist */,
+				966C8940194C80B200587631 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966C890E194C80B200587631 /* GirlOfTheWilds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966C8947194C80B200587631 /* Build configuration list for PBXNativeTarget "GirlOfTheWilds" */;
+			buildPhases = (
+				966C890B194C80B200587631 /* Sources */,
+				966C890C194C80B200587631 /* Frameworks */,
+				966C890D194C80B200587631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GirlOfTheWilds;
+			productName = GirlOfTheWilds;
+			productReference = 966C890F194C80B200587631 /* GirlOfTheWilds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		966C8935194C80B200587631 /* GirlOfTheWildsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966C894A194C80B200587631 /* Build configuration list for PBXNativeTarget "GirlOfTheWildsTests" */;
+			buildPhases = (
+				966C8932194C80B200587631 /* Sources */,
+				966C8933194C80B200587631 /* Frameworks */,
+				966C8934194C80B200587631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				966C893C194C80B200587631 /* PBXTargetDependency */,
+			);
+			name = GirlOfTheWildsTests;
+			productName = GirlOfTheWildsTests;
+			productReference = 966C8936194C80B200587631 /* GirlOfTheWildsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966C8907194C80B200587631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Rain;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Superrain;
+				TargetAttributes = {
+					966C8935194C80B200587631 = {
+						TestTargetID = 966C890E194C80B200587631;
+					};
+				};
+			};
+			buildConfigurationList = 966C890A194C80B200587631 /* Build configuration list for PBXProject "GirlOfTheWilds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966C8906194C80B200587631;
+			productRefGroup = 966C8910194C80B200587631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966C890E194C80B200587631 /* GirlOfTheWilds */,
+				966C8935194C80B200587631 /* GirlOfTheWildsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966C890D194C80B200587631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C8929194C80B200587631 /* Main_iPad.storyboard in Resources */,
+				966C8931194C80B200587631 /* Images.xcassets in Resources */,
+				966C8926194C80B200587631 /* Main_iPhone.storyboard in Resources */,
+				966C891D194C80B200587631 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966C8934194C80B200587631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C8942194C80B200587631 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966C890B194C80B200587631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C8923194C80B200587631 /* RainAppDelegate.m in Sources */,
+				966C892F194C80B200587631 /* RainDetailViewController.m in Sources */,
+				966C892C194C80B200587631 /* RainMasterViewController.m in Sources */,
+				966C891F194C80B200587631 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966C8932194C80B200587631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C8944194C80B200587631 /* GirlOfTheWildsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		966C893C194C80B200587631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 966C890E194C80B200587631 /* GirlOfTheWilds */;
+			targetProxy = 966C893B194C80B200587631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		966C891B194C80B200587631 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966C891C194C80B200587631 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		966C8924194C80B200587631 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966C8925194C80B200587631 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		966C8927194C80B200587631 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966C8928194C80B200587631 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		966C8940194C80B200587631 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966C8941194C80B200587631 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966C8945194C80B200587631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		966C8946194C80B200587631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966C8948194C80B200587631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GirlOfTheWilds/GirlOfTheWilds-Prefix.pch";
+				INFOPLIST_FILE = "GirlOfTheWilds/GirlOfTheWilds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		966C8949194C80B200587631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GirlOfTheWilds/GirlOfTheWilds-Prefix.pch";
+				INFOPLIST_FILE = "GirlOfTheWilds/GirlOfTheWilds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		966C894B194C80B200587631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GirlOfTheWilds.app/GirlOfTheWilds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GirlOfTheWilds/GirlOfTheWilds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GirlOfTheWildsTests/GirlOfTheWildsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		966C894C194C80B200587631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GirlOfTheWilds.app/GirlOfTheWilds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GirlOfTheWilds/GirlOfTheWilds-Prefix.pch";
+				INFOPLIST_FILE = "GirlOfTheWildsTests/GirlOfTheWildsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966C890A194C80B200587631 /* Build configuration list for PBXProject "GirlOfTheWilds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966C8945194C80B200587631 /* Debug */,
+				966C8946194C80B200587631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966C8947194C80B200587631 /* Build configuration list for PBXNativeTarget "GirlOfTheWilds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966C8948194C80B200587631 /* Debug */,
+				966C8949194C80B200587631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		966C894A194C80B200587631 /* Build configuration list for PBXNativeTarget "GirlOfTheWildsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966C894B194C80B200587631 /* Debug */,
+				966C894C194C80B200587631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966C8907194C80B200587631 /* Project object */;
+}
