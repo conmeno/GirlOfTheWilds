@@ -14,4 +14,6 @@
 
 @property (strong, nonatomic) RainDetailViewController *detailViewController;
 
+- (IBAction)getInfo:(UIBarButtonItem *)sender;
+
 @end

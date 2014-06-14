@@ -12,5 +12,17 @@
 
 @property (strong, nonatomic) id detailItem;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (nonatomic,retain) IBOutlet UIImageView *img1;
+
+//@property (nonatomic,retain) IBOutlet UISwipeGestureRecognizer *swipe1;
+- (IBAction)nextSwipe:(UISwipeGestureRecognizer *)recognizer;
+- (IBAction)previousSwipe:(UISwipeGestureRecognizer *)recognizer;
+
+@property(retain, nonatomic, readwrite) NSString *MainURL;
+@property(retain, nonatomic, readwrite) NSArray *allLines;
+@property int CurrentIndex;
+- (IBAction)getInfo:(UIBarButtonItem *)sender;
+
 @end
